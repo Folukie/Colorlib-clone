@@ -1,0 +1,113 @@
+*{
+    font-family: 'Raleway';
+    font-weight: 400;
+}
+.dropdown-menu{
+    text-align:center;
+}
+.switcher{
+    font-size:4px;
+    width:127px;
+}
+.fa{
+    margin:0 15px;
+    color:#f5f1da;
+}
+
+                /*SecondNav*/
+
+.stories{
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size:26px !important;
+    
+}
+.fullstop{
+    color:yellow;
+    font-weight: 900;
+}
+.second-nav{
+    background-color:#fff;
+    margin:5px 90px;
+}
+.navbar-right{
+    margin-left:57%;
+}
+.nav-link{
+    margin:0 9px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size:15px;
+}
+
+/* Carousel Div */
+.container{
+    margin:auto;
+}
+
+.c-img{
+    width:103%;
+    height:100%;
+}
+.coltext{
+    background-color:#ffd615;
+    size:50%;
+    font-family:'Raleway';
+    float:left;
+    color:black;
+}
+.content-1{
+    width:70%;
+    margin:50px 19px;
+    font-size:14px;
+    font-weight:200;
+    color:#706c61;
+}
+.content-2{
+    width:90%;
+    margin:50px 19px;
+    font-weight:900;
+    font-size:50px;
+}
+.content-3{
+    width:80%;
+    margin:50px 19px;
+    color:#706c61;
+    font-size:17px;
+}
+.hr{
+    width:85%;
+    border:solid;
+    border-color:black;
+    margin-top:-25px;
+
+}
+.btn{
+    margin:0 19px 40px;
+    background-color: black !important;
+    color:#fff !important;  
+}
+.fbtn:hover{
+    background-color:orangered !important;
+}
+.butn{
+    display:inline !important;
+    width:50%;
+    
+}
+.sbtn,.tbtn{
+    background-color: white !important;
+    color: #1e0411 !important;
+    border:1px;
+    border-style: solid;
+    border-color:#1e0411;
+    margin-top:70px !important;
+}
+.sbtn:hover,.tbtn:hover{
+    background-color: black !important; 
+    color:white !important;
+    transition: 2s !important;
+}
+.tbtn{
+    margin-left: -19px;
+}
