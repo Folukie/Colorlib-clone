@@ -125,7 +125,7 @@
 
 }
 
-.recent {
+.sub-head {
   font-size: 27px;
   font-weight: 800;
   font-family: "playfair Display";
@@ -138,12 +138,13 @@
   margin: 0 !important;
 }
 
-div.square {
+.sub-head::after {
+  content: "";
   border: solid 4px #ffd615;
   width: 8px;
   height: 6px;
   position: absolute;
-  left: 198px;
+  left: 199px;
   bottom: 20px;
 }
 
@@ -172,7 +173,7 @@ div.square {
 .dash {
   width: 22%;
   position: absolute;
-  bottom: 100px;
+  top: 56%;
   right: 126px;
   background: black !important;
 
@@ -181,7 +182,7 @@ div.square {
 .dash-scot {
   width: 22%;
   position: absolute;
-  bottom: 123px;
+  bottom: 38.5%;
   right: 126px;
   background: black !important;
 }
@@ -244,5 +245,194 @@ div.square {
   right: 10%;
   bottom: 5.5%;
   border-radius: 0 !important;
+
+}
+
+/* Featured Posts Section */
+
+.featured-posts {
+  margin-bottom: 1%;
+}
+
+.featured__photo {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 3px;
+  transition: scale .5s ease;
+
+}
+
+.featured__photo:hover {
+  transform: scale(1.1);
+}
+
+.featured__about {
+  text-align: center;
+
+}
+
+.card-about {
+  background-color: rgba(0, 0, 0, .03) !important;
+  height: 650px;
+}
+
+.featured__about-head {
+  padding: 17px 0;
+  font-family: "Playfair Display";
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.featured__author-image {
+  border-radius: 100%;
+  width: 50%;
+  margin: auto;
+}
+
+.featured__about-text {
+  margin: 24px 22px;
+  color: #999;
+  font-size: 14px;
+  letter-spacing: .1px;
+  line-height: 1.6;
+}
+
+.featured__card-body {
+  padding: 15px 0 29px !important;
+}
+
+.featured__card-text {
+  font-size: 15px;
+  font-weight: 400;
+  color: #999999;
+  position: relative;
+}
+
+strong {
+  color: black;
+}
+
+.featured__card-date {
+  margin-left: 35%;
+}
+
+.featured__dash {
+  width: 23%;
+  position: absolute;
+  bottom: 24%;
+  right: 46%;
+  background: black !important;
+
+}
+
+.featured__card-title {
+  font-weight: 400;
+  font-family: "Playfair Display";
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10%;
+
+}
+
+.featured__btn-card {
+  text-decoration: none !important;
+  color: #fff !important;
+  background-color: black;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  padding: 9px 12px;
+  border-radius: 3px;
+  box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+}
+
+.featured__btn-card:hover {
+  background-color: #fd5f00 !important;
+  transition: .2s;
+}
+
+.search {
+  margin: 41% 6% 15%;
+  display:inline;
+  position: relative;
+}
+
+.search-btn{
+  position: absolute;
+  bottom:0;
+  right:0;
+  color:#999;
+}
+input{
+  height:45px;
+  border: 1px solid #999;
+  border-radius: 3px;
+}
+input::placeholder{
+  font-size:13px;
+  padding-left:9px;
+}
+
+/* Roger section */
+.roger {
+  margin-bottom: 10%;
+}
+
+.roger__text {
+  background-color: #1f1f1f;
+  text-align: left;
+
+}
+
+.watch-video {
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration: none !important;
+  color: rgba(255, 255, 255, 0.3);
+  padding-left: 45px;
+}
+.watch-video:hover{
+  text-decoration:none;
+  color: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+
+}
+
+.roger-name {
+  color: #fff;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: "Playfair Display";
+  padding: 35px 45px 25px;
+
+}
+
+.roger-story {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 16px;
+  padding: 20px 45px 35px;
+  line-height: 1.5;
+
+}
+
+.roger-link {
+  padding: 40px 45px 0;
+  text-decoration: underline !important;
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 18px;
+  font-family: "Playfair Display";
+}
+.roger-link:hover{
+  color: rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+}
+
+.roger__photo {
+  padding-top: 5%;
+}
+
+.roger-img {
+  width: 100%;
 
 }
