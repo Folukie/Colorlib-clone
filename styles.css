@@ -624,9 +624,10 @@ input::placeholder {
   width: 25%;
   height: 60px;
 }
-.email:focus{
+
+.email:focus {
   outline: none;
-  color:black;
+  color: black;
 }
 
 .subscribe {
@@ -705,4 +706,180 @@ li {
 .ques-icon {
   transform: translateY(5px);
   color: white;
+}
+
+
+/* ABOUT SECTION */
+
+.image-headimg {
+  width: 100%;
+  height: 65vh;
+  object-fit: cover;
+  filter: brightness(72%);
+  position: relative;
+}
+
+.image-text {
+  text-align: center;
+  position: absolute;
+  top: 54%;
+  left: 41%;
+  color: white;
+}
+
+.image-textbig {
+  font-size: 55px;
+  font-family: "Playfair Display";
+  font-weight: 700;
+
+}
+
+.image-textsmall {
+  font-size: 14px;
+  padding-top: 4px;
+}
+
+/* FOODS SECTION */
+
+.foods-text {
+  position: absolute;
+  top: 54%;
+  left: 44%;
+}
+
+.foods-featured {
+  margin-top: 100px;
+}
+
+/* LIFESTYLE SECTION */
+
+.lifestyle-section {
+  margin-top: 120px;
+}
+
+.lifestyle-row {
+  margin-bottom: 40px;
+}
+
+.lifestyle-img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.lifestyle-headtext {
+  font-family: "Playfair Display";
+  font-size: 26.5px;
+  font-weight: 700;
+  color: #000;
+}
+
+.lifestyle-texts {
+  color: #999;
+  font-size: 14.5px;
+  padding-top: 20px;
+  line-height: 1.75;
+}
+
+.lifestyle-text {
+  font-size: 13px;
+}
+
+.life-line {
+  width: 30%;
+  background: black;
+  position: absolute;
+  top: 14.8px;
+  left: 74px;
+}
+
+.lifestyle-span {
+  padding-left: 148px;
+}
+
+.lifestyle-story {
+  width: 80%;
+  padding-top: 4px;
+}
+
+.lifestyle-button {
+  border: none;
+  background-color: #fd5f00;
+  color: white;
+  border-radius: 2px;
+  font-size: 13px;
+  padding: 8px 18px;
+}
+
+/* CONTACT SECTION */
+
+.contact-us {
+  margin: 20px 0;
+  padding: 40px 0;
+  background-color: #f8f9fa;
+  width:30%;
+}
+
+.box {
+  border: 1px solid #999;
+  margin-bottom: 10px;
+  width: 70%;
+  
+
+}
+.contact-btn{
+  
+  border:none;
+  background-color: #fd5f00;
+  color: white;
+  font-size: 14px;
+  border-radius: 3px;
+  padding: 15px 45px;
+  margin-left: 15%;
+}
+
+::placeholder {
+  color: #999;
+  padding-left: 3px;
+  display:block;
+}
+
+#message {
+  height: 130px;
+}
+.form-box{
+  text-align: center;
+}
+
+
+.icon-section {
+  display: flex;
+  margin: 80px 0;
+}
+
+.icons {
+  text-align: center;
+  font-size: 33px;
+  margin-bottom: 7px;
+}
+
+.faicons {
+  background-color: #000;
+  color: #ffd615;
+  font-size: 50px;
+  border-radius: 50px;
+  padding: 30px;
+}
+
+.icon-head {
+  font-size: 15px;
+  font-weight: 500;
+  padding-top: 8px;
+
+}
+
+.icon-text {
+  font-size: 13px;
+  color: #999;
 }
